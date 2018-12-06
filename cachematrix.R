@@ -1,3 +1,4 @@
+##Program to use "makeCacheMatrix" function to creates a special "matrix" object by Krishnaveni##
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
   set <- function(y) {
@@ -12,7 +13,9 @@ makeCacheMatrix <- function(x = matrix()) {
        setinverse = setinverse,
        getinverse = getinverse)
 }
+##makeCacheMatrix Program End- Krishnaveni##
 
+##Program to use "cacheSolve" function that will compute the inverse of the special "matrix" returned by makeCacheMatrix by Krishnaveni ##
 
 
 cacheSolve <- function(x, ...) {
@@ -26,3 +29,4 @@ cacheSolve <- function(x, ...) {
   x$setinverse(i)
   i
 }
+##cacheSolve Program End- Krishnaveni##
